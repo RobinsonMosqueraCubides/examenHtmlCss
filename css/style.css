@@ -58,6 +58,7 @@ header nav .icon{
 main{
     display: flex;
     height: 92vh;
+    width: 100%;
 }
 .menu {
     width: 20%;
@@ -107,4 +108,7 @@ main{
 main{
     width: 100%;
     height: 100vh;
+}
+.information{
+    width: 80%;
 }
