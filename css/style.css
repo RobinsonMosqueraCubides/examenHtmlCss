@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+i{
+    font-size: 1.7rem;
+    color: #1500d3;
+}
+h1{
+    font-size: 2.2rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .rigth {
+    margin-right: 15px;
+    border-left: 0.5px solid gray;
+    width: auto;
+}
+header nav .left{
+    width: 100%;
+    margin-left: 25px;
+}
+header nav .icon{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #1500d3;
+}
+main{
+    display: flex;
+    height: 92vh;
+}
+.menu {
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: aliceblue;
+}
+.menu .principal{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.menu .principal figure i{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.menu .main{
+    margin-left: 15px;
+
+}
+.menu .main h5{
+    margin-bottom: 10px;
+}
+.menu .main figure{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.menu .main figure i{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.menu .table{
+    margin-left: 15px;
+
+}
+.menu .table h5{
+    margin-bottom: 10px;
+}
+.menu .table figure{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.menu .table figure i{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
