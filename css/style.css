@@ -235,3 +235,7 @@ main{
 .information .botones .comprar button a{
     color: #DBE7C9;
 }
+.information .alone{
+    width: 100%;
+    margin-top: 15px;
+}
