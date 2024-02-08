@@ -109,7 +109,7 @@ main{
 .information{
     width: 100%;
     margin: 25px 15px;
-    border: 1px solid gray;
+    border: 1px solid #294B29;
     background-color: white;
     border-radius: 25px;
     display: flex;
