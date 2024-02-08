@@ -130,31 +130,31 @@ main{
     gap: 25px;
 }
 .information .mainInformation .row{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    place-content: center;
+    place-items: center;
     width: 100%;
     height: 40vh;
 }
 .information .mainInformation .column{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    place-content: center;
+    place-items: center;
     width: 100%;
-    height: 40vh;
+    height: 35vh;
 }
 .information .mainInformation .row figure{
     width: 250px;
-    height: 350px;
+    height: 300px;
     border-radius: 10px;
     border: 1px solid #294B29;
     overflow: hidden;
 }
 .information .mainInformation .row figure img{
     width: 250px;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
     overflow: hidden;
     object-fit: contain;
@@ -175,16 +175,17 @@ main{
     padding: 5px 10px;
     border-radius: 5px;
 }
+
 .information .mainInformation .column figure{
     width: 250px;
-    height: 350px;
+    height: 300px;
     border-radius: 10px;
     border: 1px solid gray;
     overflow: hidden;
 }
 .information .mainInformation .column figure img{
     width: 250px;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
     overflow: hidden;
     object-fit: contain;
