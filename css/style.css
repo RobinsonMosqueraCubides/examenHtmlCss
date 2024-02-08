@@ -24,7 +24,7 @@ h3{
     font-size: 1.5rem;
     color: #294B29;
 }
-h6{
+h5,h6{
     color: #294B29;
 }
 p{
@@ -108,49 +108,47 @@ main{
 }
 .information{
     width: 100%;
-    margin: 25px 0;
+    margin: 25px 15px;
     border: 1px solid gray;
     background-color: white;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .information .title{
     height: 10vh;
+    width: 100%;
     padding-left: 25px;
     border-radius: 25px;
     display: flex;
     align-items: center;
+    justify-content: start;
 }
 .information .mainInformation{
     width: 98%;
-    margin: 15px;
+    margin: 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
 }
 .information .mainInformation .row{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     place-content: center;
     place-items: center;
     width: 100%;
-    height: 40vh;
+    height: 80vh;
 }
-.information .mainInformation .column{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    place-content: center;
-    place-items: center;
-    width: 100%;
-    height: 35vh;
-}
+
 .information .mainInformation .row figure{
     width: 250px;
     height: 300px;
     border-radius: 10px;
     border: 1px solid #294B29;
     overflow: hidden;
+    margin-bottom: 25px;
 }
 .information .mainInformation .row figure img{
     width: 250px;
@@ -176,33 +174,64 @@ main{
     border-radius: 5px;
 }
 
+.information .mainInformation .column{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    gap: 20px;
+}
 .information .mainInformation .column figure{
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-    border: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #DBE7C9;
+    object-fit: contain;
     overflow: hidden;
 }
 .information .mainInformation .column figure img{
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    overflow: hidden;
+    width: 200px;
+    height: 150px;
     object-fit: contain;
+    overflow: hidden;
+    border-radius: 5px;
 }
-.information .mainInformation .column figure h3{
-    margin-left: 5px;
+.information .mainInformation .column figure i{
+    font-size: 2.7rem;
+    background-color: #DBE7C9;
 }
-.information .mainInformation .column figure div{
+.information .botones{
+    width: 95%;
+    height: 15vh;
     display: flex;
-    width: 100%;
-    height: 70px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-.information .mainInformation .column figure div button{
+.information .botones .vacio button{
     background-color: #294B29;
     color: #DBE7C9;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
+}
+.information .botones .vacio button a{
+    color: #DBE7C9;
+}
+.information .botones .comprar{
+    display: flex;
+    gap: 20px;
+}
+.information .botones .comprar h4{
+    color: #294B29;
+}
+.information .botones .comprar button{
+    background-color: #294B29;
+    color: #DBE7C9;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.information .botones .comprar button a{
+    color: #DBE7C9;
 }
